@@ -152,13 +152,7 @@ bot.add('/revise', [metadataRevistionInit, difficultyCheck, qualificationInit, q
 bot.add('/test', [metadataTestInit, difficultyCheck, qualificationInit, qualificationFall, qualificationCheck, topicInit, topicCheck, topicConfidenceCheck]);
 
 // Setup Restify Server
-var https_options = {
-        key: fs.readFileSync('./certificate.key'), //on current folder
-        certificate: fs.readFileSync('./certificate.cert')
-};
-
-
-var server = restify.createServer(https_options);
+var server = restify.createServer();
 server.post('/api/messages', bot.verifyBotFramework(), bot.listen());
 server.listen(process.env.port || 8000, function() {
     console.log('%s listening to %s', server.name, server.url);
