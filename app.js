@@ -6,7 +6,7 @@ var revisionData = require('./guides.json');
 var hazel = require('./hazel.json');
 
 // Create bot and add dialogs
-var bot = new builder.BotConnectorBot({ appId: 'a48029f7-add5-4285-9542-1057b434cea2', appSecret: 'b71ac1f83aa54d2a8f6fddd829e21504' });
+var bot = new builder.BotConnectorBot({ appId: 'hazelrevi', appSecret: '6f0b302f4f8948f6a2f963c3f3c5b346' });
 
 function metadataRevistionInit(session, args, next) {
     console.log(args);
