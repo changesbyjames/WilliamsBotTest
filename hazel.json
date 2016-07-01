@@ -1,0 +1,55 @@
+{
+    "newGreeting": [
+        "Hello, I don’t think we’ve met before, my name is Hazel. What’s yours?",
+        "Hey! I’m Hazel, what’s your name?",
+        "Hello, I’m Hazel, it’s very nice to meet you! What’s your name?"
+    ],
+    "onboarding": [
+        "Right now I can help you find Maths topics that you want to revise or be tested on.",
+        "I know some Maths topics so I can either to help you revise or I can test you.",
+        "I can give you some information to help you revise or I can test you."
+    ],
+    "greeting": [
+        "Welcome back, it’s nice to see you again. What can I do you for?",
+        "Nice to see you again, glad I’m useful enough for you to be back again! How can I help?",
+        "Hey, how can I help?"
+    ],
+    "qualificationAsk": [
+        "Sorry, I don’t know what qualification you’re studying, is it GCSE or A-level?",
+        "I don’t think you’ve ever told me, are you studying GCSE or A-level?",
+        "Sorry, is that GCSE or A-level?"
+    ],
+    "qualificationConfirm": [
+        "I’ll remember that you’re studying that for next time.",
+        "I’ll keep that in mind for next time."
+    ],
+    "topicAsk": [
+        "Okay, what topic would you like to revise?",
+        "Any specific topic?",
+        "Anything specifically?",
+        "What shall I help you with specifically?"
+    ],
+    "topicNegative": [
+        "I can give you a list of what I know if that would help? Or I can just send you a random one?",
+        "I can tell you what stuff I know or I can just give you a random one if you’d like?"
+    ],
+    "difficultyConfirm": [
+        "Alright then, let me find you a %s one.",
+        "Cool, I’ll find one of those %s ones.",
+        "Coming right up!"
+    ],
+    "help": [
+        "You can ask me to give you information on many topics in whatever way you want. If you’re just feeling like doing a test or doing some revision, you can ask me to give you a random one, an easy test or some hard revision. You can ask me about specific topics like surds, fractions, or even trigonometry; although I’m not sure why you’d want to ask me."
+    ],
+    "privacy": [
+        "I know that your name is name, and that you’re currently studying qualifications or at least asking me questions about it!  That’s all I really know about you name, I pinky promise!"
+    ],
+    "hindenburg": [
+        "Oops, I’m very sorry, I’m not sure what happened there. Can we try again?",
+        "I seemed to have blacked out for a second. Where were we?",
+        "Oh lordy everything broke back here, can we go again?",
+        "Sorry, I think we have to try again, I’ve forgotten everything.",
+        "Big ol’ error just happened and I seemed to have forgotten everything we just talked about. What’s your name again? Wait, I still know that I think. Dave?"
+    ]
+    
+}
